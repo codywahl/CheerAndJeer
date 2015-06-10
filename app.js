@@ -13,6 +13,7 @@ app.get('/jeer.txt', function(request, response) {
 });
 
 
+//var server = app.listen(8080);  --Equivilant server listener, just without the .log message.
 var server = app.listen(8080, function() {
 	console.log('Listening on port 8080');
 });
