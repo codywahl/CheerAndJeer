@@ -1,6 +1,6 @@
 //Using express
 var express = require('express');
-var app express();
+var app = express();
 
 //Defining GET route for /cheer.txt
 app.get('/cheer.txt', function(request, response) {
